@@ -1,6 +1,6 @@
 {
   "name": "number-to-nepali-text",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This library helps to convert numbers to nepali texts",
   "main": "index.ts",
   "types": "dist/index.d.ts",
