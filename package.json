@@ -1,0 +1,24 @@
+{
+  "name": "number-to-nepali-text",
+  "version": "1.0.0",
+  "description": "This library helps to convert numbers to nepali texts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aiskabasnet/number-to-nepali-text.git"
+  },
+  "keywords": [
+    "nepali",
+    "number",
+    "converter"
+  ],
+  "author": "Aiska Basnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aiskabasnet/number-to-nepali-text/issues"
+  },
+  "homepage": "https://github.com/aiskabasnet/number-to-nepali-text#readme"
+}
