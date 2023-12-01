@@ -125,7 +125,7 @@ export const numberToNepaliText = (number: number) => {
         num < 100000000000
           ? num < 1000000000
             ? num < 10000000
-              ? num < 1000000
+              ? num < 100000
                 ? 1000
                 : 100000
               : 10000000
@@ -136,7 +136,7 @@ export const numberToNepaliText = (number: number) => {
         (num < 100000000000
           ? num < 1000000000
             ? num < 10000000
-              ? num < 1000000
+              ? num < 100000
                 ? " हजार "
                 : " लाख "
               : " करोड़ "
