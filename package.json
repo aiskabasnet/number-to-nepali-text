@@ -2,9 +2,11 @@
   "name": "number-to-nepali-text",
   "version": "1.0.0",
   "description": "This library helps to convert numbers to nepali texts",
-  "main": "index.js",
+  "main": "index.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -20,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/aiskabasnet/number-to-nepali-text/issues"
   },
-  "homepage": "https://github.com/aiskabasnet/number-to-nepali-text#readme"
+  "homepage": "https://github.com/aiskabasnet/number-to-nepali-text#readme",
+  "devDependencies": {
+    "typescript": "^5.3.2"
+  }
 }

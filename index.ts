@@ -1,4 +1,4 @@
-const numberToNepaliText = (number) => {
+export const numberToNepaliText = (number: number) => {
   const nepaliDigits = [
     "शुन्य",
     "एक",
@@ -69,8 +69,8 @@ const numberToNepaliText = (number) => {
     "छियासठी",
     "सत्तासठी",
     "अठासठी",
-    "उनन्सत्तारी",
-    "सत्तारी",
+    "उनन्सत्तरी",
+    "सत्तरी",
     "एकहत्तर",
     "बहत्तर",
     "त्रिहत्तर",
@@ -99,11 +99,11 @@ const numberToNepaliText = (number) => {
     "छियान्नब्बे",
     "सत्तान्नब्बे",
     "अठान्नब्बे",
-    "उनन्साय",
-    "साय",
+    "उनन्सय",
+    "सय",
   ];
 
-  function convertLessThanThousand(num) {
+  function convertLessThanThousand(num: number): string {
     if (num === 0) {
       return "";
     } else if (num <= 100) {
@@ -117,14 +117,7 @@ const numberToNepaliText = (number) => {
     }
   }
 
-  function getDivisor(num) {
-    if (num > 1000 && num < 10000000) {
-      return 100000;
-    }
-    return 1000;
-  }
-
-  function convertMoreThanThousand(num) {
+  function convertMoreThanThousand(num: number): string {
     if (num < 1000) {
       return convertLessThanThousand(num);
     } else {
@@ -160,5 +153,3 @@ const numberToNepaliText = (number) => {
     return convertMoreThanThousand(number);
   }
 };
-
-module.exports = numberToNepaliText;
