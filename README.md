@@ -30,9 +30,9 @@ import { numberToNepaliText } from "number-to-nepali-text";
 Use the `numberToNepaliText` function to convert numbers to Nepali text:
 
 ```
- const number = 13500;
-  const nepaliText = numberToNepaliText(number);
-  console.log(`${number} in Nepali: ${nepaliText}`);
+const number = 13500;
+const nepaliText = numberToNepaliText(number);
+console.log(`${number} in Nepali: ${nepaliText}`);
 
 ```
 

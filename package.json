@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/aiskabasnet/number-to-nepali-text#readme",
   "devDependencies": {
+    "ts-node": "^10.9.1",
     "typescript": "^5.3.2"
   }
 }
