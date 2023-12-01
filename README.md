@@ -1,4 +1,4 @@
-# Nepali Number Converter
+# Convert Numbers to Nepali Texts
 
 Convert numbers to Nepali text.
 
@@ -7,5 +7,5 @@ Convert numbers to Nepali text.
 You can install the package using npm:
 
 ```bash
-npm install nepali-number-converter
+npm install number-to-nepali-text
 ```
